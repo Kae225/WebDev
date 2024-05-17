@@ -1,0 +1,340 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+
+  align-items: center
+}
+
+#logo {
+  border: 2px solid black;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  margin-left: 20px;
+  border-radius: 4px;
+}
+
+.search-bar {
+  position: relative;
+  margin: 0 auto;
+}
+
+.search {
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+input[type="submit"] {
+  height: 30px;
+  border: 1px solid black;
+  background-color: grey;
+  color: white;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  border-radius: 4px;
+}
+
+.buttons-nav button {
+  height: 30px;
+  width: 150px;
+  background-color: white;
+  color: black;
+  border: none;
+  margin-right: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.second-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: white;
+  border: 1px solid black;
+  height: 100px;
+  width: 100%;
+}
+
+.second-bar-buttons {
+  display: flex;
+  width: 100%;
+  margin-left: 150px;
+  align-items: center;
+}
+
+.second-bar-buttons button {
+  height: 50px;
+  width: 150px;
+  background-color: white;
+  color: black;
+  border: 1px solid;
+  border-radius: 4px;
+  margin-right: 25px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#book-now {
+  margin-left: auto;
+  margin-right: 50px;
+  height: 75px;
+  width: 225px;
+}
+
+.wide1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wide1 img {
+  width: 100%;
+  z-index: 1;
+}
+
+.wide1text {
+  position: absolute;
+  color: black;
+  font-size: 50px;
+  top: 37.5%;
+  z-index: 2;
+}
+
+#underwide1text {
+  position: absolute;
+  top: 45%;
+  z-index: 2;
+}
+
+#wide1textbutton {
+  position: absolute;
+  top: 52.5%;
+  z-index: 2;
+  border: 1px solid black;
+  background: white;
+  width: 200px;
+  height: 75px;
+}
+
+.wide2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wide2 img {
+  width: 100%;
+  z-index: 1;
+}
+
+.wide2text {
+  position: absolute;
+  color: black;
+  font-size: 50px;
+  top: 37.5%;
+  right: 20%;
+  z-index: 2;
+}
+
+#underwide2text {
+  position: absolute;
+  top: 45%;
+  right: 20%;
+  z-index: 2;
+}
+
+#wide2textbutton {
+  position: absolute;
+  top: 52.5%;
+  right: 20%;
+  z-index: 2;
+  border: 1px solid black;
+  background: white;
+  width: 200px;
+  height: 75px;
+}
+
+#header1 {
+  position: absolute;
+  top: 10%;
+  font-size: 75px;
+}
+
+
+.wide3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wide3 img {
+  width: 40%;
+  margin-left: 50px;
+  margin-top: 300px;
+  z-index: 1;
+}
+
+.wide3text {
+  position: absolute;
+  color: black;
+  font-size: 50px;
+  bottom: -15%;
+  left: 10%;
+  z-index: 2;
+}
+
+#underwide3text {
+  position: absolute;
+  bottom: -25%;
+  left: 10%;
+  z-index: 2;
+}
+
+.wide4 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wide4text {
+  position: absolute;
+  color: black;
+  font-size: 50px;
+  bottom: -15%;
+  left: calc(50% + 55px);
+  z-index: 2;
+}
+
+#underwide4text {
+  position: absolute;
+  bottom: -25%;
+  left: calc(50% + 55px);
+  z-index: 2;
+}
+
+#wide3textbutton {
+  position: absolute;
+  bottom: -30%;
+  left: calc(10% - 10px);
+  z-index: 2;
+  border: none;
+  background: white;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+
+#wide4textbutton {
+  position: absolute;
+  bottom: -30%;
+  left: calc(50% + 45px);
+  z-index: 2;
+  border: none;
+  background: white;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+
+}
+
+#view-all {
+  position: absolute;
+  bottom: -45%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  border: 1px solid black;
+  background: white;
+  width: 400px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#logo2 {
+  position: absolute;
+  width: 7.5%;
+  height: 5%;
+  bottom: -260%;
+  left: 20%;
+  z-index: 2;
+  border: 2px solid black;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.footer-headers {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+  position: absolute;
+  bottom: -255%;
+  left: 37%;
+  z-index: 2;
+}
+
+.pages-buttons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: -20px;
+  height: 20px;
+  width: 100px;
+  gap: 50px;
+}
+
+.pages-buttons button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hours-list {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70%;
+  left: 260px;
+  height: 20px;
+  width: 100px;
+  gap: 25px;
+}
+
+.contactnlocation {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70%;
+  left: 525px;
+  height: 20px;
+  width: 100px;
+  gap: 25px;
+}
+
+canvas {
+  display: block;
+}

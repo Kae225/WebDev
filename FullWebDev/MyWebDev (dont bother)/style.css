@@ -1,0 +1,164 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.topnav {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid;
+  z-index: 1;
+}
+
+.logo {
+  border: 1px solid;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 2;
+}
+
+.topnav input[type="text"] {
+  width: 200px;
+  height: 25px;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid;
+  position: relative;
+  left: 250px;
+  top: -10px;
+  z-index: 2;
+}
+
+.search_button {
+  padding: 6px 10px;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  left: 185px;
+  top: -10px;
+  z-index: 2;
+}
+
+.login_button,
+.register_button,
+.language_button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  position: absolute;
+  z-index: 3;
+}
+
+.login_button {
+  right: 22%;
+  top: 5px;
+}
+
+.register_button {
+  right: 16%;
+  top: 5px;
+}
+
+.language_button {
+  right: 10%;
+  top: 5px;
+}
+
+.secondnav {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 70px;
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid;
+  z-index: 1;
+}
+
+.home_button,
+.promotions_button,
+.about_button,
+.attractions_button,
+.events_button {
+  position: absolute;
+  background-color: white;
+  border: 1px solid;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.home_button {
+  left: 50px;
+  width: 125px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.promotions_button {
+  left: 200px;
+  width: 175px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.about_button {
+  left: 400px;
+  width: 125px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.attractions_button {
+  left: 550px;
+  width: 175px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.events_button {
+  left: 750px;
+  width: 125px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.booknow_button {
+  position: absolute;
+  background-color: white;
+  border: 1px solid;
+  cursor: pointer;
+  right: 30px;
+  width: 175px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 24px;
+}
+
+.widehome {
+  position: absolute;
+  top: 140px;
+  border: 1px solid;
+}
+
+.widehome2 {
+  position: absolute;
+  top: 640px;
+  border: 1px solid;
+}
+
+canvas {
+  display: block;
+}
